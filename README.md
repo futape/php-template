@@ -35,7 +35,7 @@ use Futape\PhpTemplate\Template;
 $template = (new Template('template.php'))
     ->addVariable('name', 'Stranger');
 
-echo $template->render()
+echo $template->render();
 /* Hello Stranger,
 
 this is an usage example of futape/php-template.
