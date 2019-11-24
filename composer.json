@@ -1,29 +1,19 @@
 {
-    "name": "futape/php-template",
-    "description": "",
-    "type": "library",
-    "license": "MIT",
-    "require": {
-      "php": "^7.2",
-      "futape/php-utility": "@dev",
-      "futape/string-utility": "@dev"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^8.4"
-    },
-    "autoload": {
-      "psr-4": {
-        "Futape\\PhpTemplate\\": "src/"
-      }
-    },
-    "repositories": [
-      {
-        "type": "path",
-        "url": "../php-utility"
-      },
-      {
-        "type": "path",
-        "url": "../utility-string"
-      }
-    ]
+  "name": "futape/php-template",
+  "description": "A template engine for rendering PHP templates",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": "~7.2.0",
+    "futape/php-utility": "^1.0.0",
+    "futape/string-utility": "^1.0.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Futape\\PhpTemplate\\": "src/"
+    }
+  }
 }
